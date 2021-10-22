@@ -25,9 +25,20 @@ a {
 #left-link {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .right-links {
     display: flex;
     gap: 8px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#hero-img {
+    max-width: 600px;
+    max-height: 300px;
 }
