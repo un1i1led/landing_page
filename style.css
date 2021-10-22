@@ -1,0 +1,33 @@
+
+body {
+    background: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 250px;
+}
+
+ul {
+    list-style: none;
+    margin: 20px 25px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+
+#left-link {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.right-links {
+    display: flex;
+    gap: 8px;
+}
