@@ -1,0 +1,1 @@
+My attempt at the odin project's landing page project.
