@@ -189,3 +189,22 @@ a {
     color: white;
 }
 
+/* footer */
+
+footer {
+    height: 70px;
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    font-family: "Josefin sans", serif;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #637998;
+}
