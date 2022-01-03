@@ -165,15 +165,17 @@ li a:hover {
     font-family: "Josefin sans", Times, serif;
     font-size: larger;
     height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #h3quote {
-    padding-left: 570px;
-    padding-top: 100px;
+    padding-left: 50px;
 }
 
 #writer {
-    padding-left: 1200px;
+    padding-left: 700px;
 }
 
 /* Signup */
