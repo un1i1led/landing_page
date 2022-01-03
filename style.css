@@ -62,10 +62,6 @@ a {
     inline-size: 75%;
 }
 
-.hero-right {
-    
-}
-
 #hero-img {
   max-width: 730px;
   max-height: 300px;
@@ -153,5 +149,43 @@ a {
 
 /* Signup */
 
+.signup {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.blue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+    padding: 15px 200px;
+    gap: 70px;
+    color: white;
+}
+
+.blue h2 {
+    font-family: "Josefin sans", Times, serif;
+    margin: 20px 0px 0px 0px;
+}
+
+.blue p {
+    font-family: "Josefin Slab", serif;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+}
+
+#blue-button {
+    font-family: "Josefin sans", serif;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: white;
+}
 
