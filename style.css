@@ -5,6 +5,19 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* button hover */
+
+#signup:hover {
+    background-color: white;
+    color:#3882F6;
+}
+
+#blue-button:hover {
+    background-color: white;
+    color: #3882F6;
+} 
+
 /* Header */
 .header {
     
@@ -26,6 +39,7 @@ a {
     
 }
 
+
 #left-link {
     color: #F9FAF8;
     font-size: 24px;
@@ -35,6 +49,11 @@ a {
 
 #logo {
     font-family: "Josefin sans", Times, serif;
+    transition-duration: 0.4s;
+}
+
+#logo:hover {
+    color: #3882F6;
 }
 
 .right-links {
@@ -42,6 +61,15 @@ a {
     gap: 8px;
     margin-right: 400px;
 }
+
+li a {
+    transition-duration: 0.4s;
+}
+
+li a:hover {
+    color: #3882F6;
+}
+
 
 /* Hero */
 
@@ -89,6 +117,7 @@ a {
     border-radius: 8px;
     border: none;
     padding: 10px 30px;
+    transition-duration: 0.4s;
 }
 
 /* Information */
@@ -187,6 +216,7 @@ a {
     border: 2px solid white;
     background-color: #3882F6;
     color: white;
+    transition-duration: 0.4s;
 }
 
 /* footer */
@@ -203,6 +233,7 @@ footer {
 footer a {
     font-family: "Josefin sans", serif;
     font-weight: bold;
+    transition-duration: 0.4s;
 }
 
 footer a:hover {
